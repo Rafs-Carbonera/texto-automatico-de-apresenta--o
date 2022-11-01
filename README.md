@@ -1,4 +1,4 @@
-# texto-automatico-de-apresentação
+# Gerador de texto de apresentação automático.
 
 A idéia deste projeto veio depois de fazer um curso de JS no Youtube, onde se mostrava como pegar um elemento de dentro de um input e inserir em outro lugar, como uma lista.
 A partir disso resolvi brincar um pouco e criar uma espécie de gerador de carta de apresentação. 
