@@ -7,10 +7,6 @@ const stateInput = document.querySelector("#estado");
 const areaTrabalhoInput = document.querySelector("#area-trabalho");
 const cargoInput = document.querySelector("#cargo");
 
-//const frontEndRadio = document.querySelector("#front-end");
-//const backEndRadio = document.querySelector("#back-end");
-//const fullStackRadio = document.querySelector("#full-stack");
-
 const liguagensDominaUmaInput = document.querySelector("#linguagens-domina-uma");
 const liguagensDominaDuasInput = document.querySelector("#linguagens-domina-duas");
 const liguagensDominaTresInput = document.querySelector("#linguagens-domina-tres");
@@ -85,11 +81,6 @@ submitButton.addEventListener("click", (evento) => {
     
 
 }, {once : true});
-
-//idade somente numero
-//futuramente achar um jeito de arrumar a data
-//arrumar questão do capitalize
-//adicionar mais inputs de linguagens se a pessoa quiser
 
 
 
