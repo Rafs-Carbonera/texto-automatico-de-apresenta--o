@@ -1,7 +1,7 @@
 # Gerador de texto de apresentação automático.
 
 A idéia deste projeto veio depois de fazer um curso de JS no Youtube, onde se mostrava como pegar um elemento de dentro de um input e inserir em outro lugar, como uma lista.
-A partir disso resolvi brincar um pouco e criar uma espécie de gerador de carta de apresentação. 
+A partir disso resolvi brincar um pouco e criar uma espécie de gerador de carta de apresentação para desenvolvedores. 
 Infelizmente ainda não consegui programar todas as funcionalidades que eu gostaria, como:
 
 - A pessoa adicionar a data de nascimento e o js converter essa informação para quantos anos ela tem;
