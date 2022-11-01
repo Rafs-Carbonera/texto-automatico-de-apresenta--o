@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cover Letter Generator</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">Cover Letter Generator</h1>
+        <h2 class="subtitulo">Gerador de Carta de Apresentação Automático</h2>
+    </header>
+    <section class="container">
+        <div class="msg" id="msg"></div>
+        <form class="my-form">
+            <div class="dados-pessoais">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input class="input" type="text" id="nome" autocomplete="off">
+                </div>
+                <div>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input class="input" type="text" id="sobrenome">
+                </div>
+                <div>
+                    <label for="idade">Quantos anos você tem?</label>
+                    <input class="input" type="text" id="idade">
+                </div>
+            </div>
+                
+            <div class="dados-local">
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <input class="input" type="text" id="cidade">
+                </div>
+                <div>
+                    <label for="estado">Estado:</label>
+                    <input class="input" type="text" id="estado">
+                </div>
+            </div>
+
+            <div class="dados-trabalho">
+                <div>
+                    <label for="area-trabalho">Área em que trabalha:</label>
+                    <input class="input" type="text" id="area-trabalho">
+                </div>
+                <div>
+                    <label for="cargo">Cargo:</label>
+                    <input class="input" type="text" id="cargo">
+                </div>
+            </div>
+
+            <div class= "radio-box">
+                <div>
+                    <label for="area-intersse">De que lado da aplicação você desenvolve?</label>
+                    <label class="radio">
+                        <input type="radio" name="devweb" value="Front-end"  id="front-end" checked> Front-end
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="devweb" value="Back-end" id="back-end"> Back-end
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="devweb" value="Full-stack" id="full-stack"> Full-stack 
+                    </label>
+                </div>
+            </div>
+
+            <div class="linguagem-dominante">
+                <div>
+                    <label for="linguagem">Digite aqui uma ou mais linguagens que você domina:</label>
+                    <input type="text" class="input-dominante input" id="linguagens-domina-duas">
+                    <input type="text" class="input-dominante input" id="linguagens-domina-uma">
+                    <input type="text" class="input-dominante input" id="linguagens-domina-tres">
+                </div>
+            </div>
+            <div class="linguagem-conhecida">
+                <div>
+                    <label for="outras-linguagens">Digite agora, outras linguagens que você conhece:</label>
+                    <input type="text" class="input-conhecida input" id="linguagens-conhece-uma">
+                    <input type="text" class="input-conhecida input" id="linguagens-conhece-duas">
+                    <input type="text" class="input-conhecida input" id="linguagens-conhece-tres">
+                </div>
+            </div>
+            
+            <div class="hobbies">
+                <label for="hobbies">Nos conte três hobbies que você tem:</label>
+                <input type="text" class="input-hobbies input" id="hobbies-um">
+                <input type="text" class="input-hobbies input" id="hobbies-dois">
+                <input type="text" class="input-hobbies input" id="hobbies-tres">
+            </div>
+
+            <div class="email">
+                <div>
+                    <label for="email">Coloque aqui o seu email para contato:</label>
+                    <input class="input-email" type="email" id="email">
+                </div>
+            </div>
+
+            <div class="botao-container">
+                <button class="botao" id="submit-button" type="submit">Concluido</button>
+            </div>
+            <div class="resumo" id="resumo"></div>
+        </form>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>

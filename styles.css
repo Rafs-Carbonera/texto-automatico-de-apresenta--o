@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+body {
+    background: rgb(238, 238, 238);
+}
+
+.cabecalho {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.titulo {
+    padding: 20px;
+}
+
+.msg {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.container {
+    margin: auto;
+    width: 1200px;
+    overflow: auto;
+    padding: 3rem 2rem;
+    font-size: 17px;
+}
+
+.my-form {
+    padding: 2rem;
+    background: #f4f4f4;
+    box-shadow: 12px 11px 11px 0px rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+
+.dados-pessoais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.dados-local, .dados-trabalho {
+     display: flex;
+     justify-content: left;
+     gap: 145px;
+     align-items: center;
+     padding: 10px;
+}
+
+.radio-box, .radio, .email{
+    padding: 10px;
+}
+
+.linguagem-dominante, .linguagem-conhecida {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.input {
+    border-radius: 8px;
+    height: 2rem;
+    border-style: none;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+    font-weight: bold;
+    text-align: center;
+}
+
+.input-email {
+    border-radius: 8px;
+    height: 2rem;
+    border-style: none;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+    font-weight: bold;
+    text-align: center;
+    width: 20rem;
+}
+
+.input-dominante, .input-conhecida{
+    margin: 0 15px;
+}
+
+.hobbies {
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.input-hobbies {
+    margin: 0 20px;
+}
+
+.botao-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.botao {
+    width: 30%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.botao:hover{
+    transform: scale(1.1);
+    transition: 0.5s;    
+}
+
+.resumo {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 22px;
+}
