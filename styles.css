@@ -126,3 +126,13 @@ body {
     padding-bottom: 15px;
     font-size: 22px;
 }
+
+@media screen and (max-width: 1200px) {
+    .container {
+        margin: auto;
+        overflow: auto;
+        padding: 3rem 2rem;
+        font-size: 17px;
+    }
+    
+}
